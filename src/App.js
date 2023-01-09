@@ -10,7 +10,9 @@ import Gallery from "./pages/Gallery"
 import  Aboutus from "./pages/Aboutus"
 import Events from './pages/Events';
 import Blog from './pages/Blog'
+import Volunteering from './pages/Volunteering'
 import Achievements from './pages/Achievements'
+
 import Team from './pages/Team'
 
 
@@ -30,7 +32,8 @@ function App() {
           <Route path="/aboutus" element={<Aboutus/>}></Route>
           <Route path="/achievements" element={<Achievements/>}></Route>
           <Route path="/signup" element={Signup}></Route>
-          <Route path="/team" element={Team}></Route>
+          <Route path="/Volunteering" element={<Volunteering/>}></Route>
+          <Route path="/team" element={<Team/>}></Route>
         </Routes>
       </BrowserRouter>
      

@@ -58,7 +58,7 @@ export const navItems = [
     {
       id: 2,
       title: "Voluntering",
-      path: "./voluntering",
+      path: "./volunteering",
       cName: "submenu-item",
       
     },
