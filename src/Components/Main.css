@@ -199,6 +199,10 @@
   .contactus{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/blez2.jpg);
   }
+  /* .fr{
+    float:right;
+    
+  } */
   /* #contact {
     background: #191919;
     padding-top: 96px;

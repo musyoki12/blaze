@@ -46,12 +46,7 @@ export const navItems = [
       path: "./achievements",
       cName: "submenu-item",
     },
-    {
-      id: 4,
-      title: "Team",
-      path: "./team",
-      cName: "submenu-item",
-    },
+    
   ];
   export const donationDropdown = [
     {
@@ -65,5 +60,13 @@ export const navItems = [
       title: "Voluntering",
       path: "./voluntering",
       cName: "submenu-item",
+      
     },
+    {
+      id: 4,
+      title: "Team",
+      path: "./team",
+      cName: "submenu-item",
+    },
+    
   ];

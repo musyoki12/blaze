@@ -3,7 +3,7 @@ import React from 'react'
 function ContactUs() {
   return (
     <div className='contactus'>
-      <form>
+      <form className='fr'>
   <div className="form-row">
     <div className="form-group col-md-6">
       <label for="inputEmail4">Email</label>
