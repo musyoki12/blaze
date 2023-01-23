@@ -6,10 +6,9 @@ import Cards from './Cards'
 
 
 
-function Team() {
+function Team({images}) {
 
-
-  return (
+return (
     <div>
     <h1>Meet our Team</h1>
     <div>
@@ -52,7 +51,24 @@ function Team() {
       </Button> */}
     </div>
 
-      <div>
+      <div className="container">
+        <div className='row'>
+        <div className='column'>
+<div className='card-collection'>
+{images.map((image)=>(<Card img={image.img}/>))
+}
+  
+    <Card  style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={""}/>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </Card.Text>
+        <Button variant="primary">Bryan</Button>
+      </Card.Body>
+    </Card>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180"/>
       <Card.Body>
@@ -61,9 +77,22 @@ function Team() {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Button variant="primary">Bryan</Button>
       </Card.Body>
     </Card>
+    <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="holder.js/100px180"/>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>
+        <Card.Text>
+          Description
+        </Card.Text>
+        <Button variant="primary">Bryan</Button>
+      </Card.Body>
+    </Card>
+    </div>
+    </div>
+    </div>
       </div>
         </div>
   )

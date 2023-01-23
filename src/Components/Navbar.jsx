@@ -1,6 +1,3 @@
-
-
-
 // import Container from 'react-bootstrap/Container';
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
@@ -14,11 +11,8 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
 
   return (
-    <>
-    {/* <Container> */}
+    <div className="container">
       <nav className="navbar1">
-      
-        
         <Link to="/" className="navbar-logo1">
           Blazzers
           <img src={logo} className="log" alt="logo" />
@@ -49,10 +43,8 @@ function Navbar() {
           })}
         </ul>
         <Button />
-        
       </nav>
-      {/* </Container> */}
-    </>
+    </div>
   );
 }
 

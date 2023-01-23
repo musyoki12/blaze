@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
+import {Link} from "react-router-dom";
+import ContactUS from './ContactUs.jsx'
 
 function Aboutus() {
   return (
@@ -27,9 +29,9 @@ support where necessary.<br/>
         every child should be able to make their mark on their<br/>
          world and help build a better future.</h3>
          <div className='btn1'>
-         <Button variant="success" type="submit">
-        Contact Us
-      </Button>
+         <Link to='./contactus'>
+        <Button className="btn1" variant="dark">Contact Us</Button> 
+          </Link>
          </div>
       </div>
       </div>
