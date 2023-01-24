@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="container">
+    <div className="containe">
       <div className="home">
         <div className="text">
           <h3 className="headings">YOUR CONTRIBUTION</h3>

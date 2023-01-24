@@ -11,23 +11,30 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
 
   return (
-    <div className="container">
-      <nav className="navbar1">
+    <div className="containe">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark"role="navigation" >
+      <div className="container-fluid">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+   {/* <div class="collapse navbar-collapse" id="navbarNav"></div> */}
+      <div className="collapse navbar-collapse" id="navbarNav">
         <Link to="/" className="navbar-logo1">
           Blazzers
           <img src={logo} className="log" alt="logo" />
         </Link>
-        <ul className="nav-items1">
+        <ul className="navbar-nav mr-auto">
+
           {navItems.map((item) => {
             if (item.title === "Gallery") {
               return (
-                <li
+                <li 
                   key={item.id}
-                  className={item.cName}
+                  className="nav-item"
                   onMouseEnter={() => setDropdown(true)}
                   onMouseLeave={() => setDropdown(false)}
                 >
-                  else ()
+                  ()
                   <Link to={item.path}>{item.title}</Link>
                   {dropdown && <Dropdown />}
                 </li>
@@ -43,7 +50,10 @@ function Navbar() {
           })}
         </ul>
         <Button />
+        </div>
+        </div>
       </nav>
+     
     </div>
   );
 }

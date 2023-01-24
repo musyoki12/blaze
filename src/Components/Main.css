@@ -10,7 +10,7 @@
     grid-template-columns: 1fr;
   }
 }
-.navbar1 {
+.navbar{
     
   
     height: 8vh;
@@ -64,7 +64,7 @@
       text-decoration: none;
       color: white;
       font-size: 1.1rem;
-      /* margin-right: 2rem; */
+    
       padding: 6px 16px;
       border-radius: 5px;
     }

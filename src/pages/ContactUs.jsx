@@ -2,6 +2,7 @@ import React from 'react'
 
 function ContactUs() {
   return (
+    <div className='container'>
     <div className='contactus'>
       <form className='fr'>
   <div className="form-row">
@@ -54,6 +55,7 @@ function ContactUs() {
   </div>
   <button type="submit" className="btn btn-primary">Sign in</button>
 </form>
+    </div>
     </div>
   )
 }
