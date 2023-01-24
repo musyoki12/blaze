@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 
 function Donations() {
   return (
+    <div className='container'>
     <div className='donation'>
       {/* <div className="spinner-border text-primary" role="status">
   <span className="visually-hidden">Loading...</span>
@@ -57,6 +58,7 @@ function Donations() {
   {/* <h1 className="heading"></h1> */}
   </div>
 </div>
+      </div>
       </div>
   )
 }

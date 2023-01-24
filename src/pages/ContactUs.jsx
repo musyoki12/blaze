@@ -2,7 +2,7 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    <div className='container'>
+    // <div className='container'>
     <div className='contactus'>
       <form className='fr'>
   <div className="form-row">
@@ -53,9 +53,8 @@ function ContactUs() {
       </label>
     </div>
   </div>
-  <button type="submit" className="btn btn-primary">Sign in</button>
+  <button type="submit" className="btn btn-primary">Send Message</button>
 </form>
-    </div>
     </div>
   )
 }
