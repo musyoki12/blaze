@@ -10,7 +10,7 @@
     grid-template-columns: 1fr;
   }
 }
-.navbar{
+/* .navbar{
     
   
     height: 8vh;
@@ -28,7 +28,7 @@
   
       
      
-    }
+    } */
     .log{
       max-width:60%;
       height:auto;
@@ -47,6 +47,7 @@
     
     .nav-items1 {
       display: flex;
+      float:right;
       list-style: none;
       text-align: center;
       width: 70vw;
@@ -57,7 +58,7 @@
     .nav-item {
       display: flex;
       align-items: center;
-      height: 10vh;
+      height: 0vh;
     }
     
     .nav-item a {
@@ -186,13 +187,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", sans-serif,;
   }
   /* contactus */
   .contactus{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../Images/blez2.jpg);
     height: 100vh;
-  }
+    background-color:#4d6ca8;
+
+    }
+    /* margin-top:53px; */
+  
   /* .fr{
     float:right;
     

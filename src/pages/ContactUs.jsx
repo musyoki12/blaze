@@ -2,27 +2,39 @@ import React from 'react'
 
 function ContactUs() {
   return (
-    // <div className='container'>
     <div className='contactus'>
+    <div className='row'>
+      <div className='column'>
+      <h1>Get in touch with us</h1>
+      </div>
+        <div className='column'>
+          <div>
+          <h1>Send Us a Message</h1>
+          </div>
       <form className='fr'>
-  <div className="form-row">
+     
+  <div className="form-row mr-auto">
+  <div className="form-group col-md-6">
+      <label for="firstName">Name</label>
+      <input type="text" className="form-control" id="inputText4" placeholder="Your Name"/>
+    </div>
     <div className="form-group col-md-6">
       <label for="inputEmail4">Email</label>
       <input type="email" className="form-control" id="inputEmail4" placeholder="Email"/>
     </div>
-    <div className="form-group col-md-6">
+    {/* <div className="form-group col-md-6">
       <label for="inputPassword4">Password</label>
       <input type="password" className="form-control" id="inputPassword4" placeholder="Password"/>
-    </div>
+    </div> */}
   </div>
   <div className="form-group col-md-6">
     <label for="inputAddress">Address</label>
     <input type="text" className="form-control" id="inputAddress" placeholder="1234 Main St"/>
   </div>
-  <div className="form-group col-md-6">
+  {/* <div className="form-group col-md-6">
     <label for="inputAddress2">Address 2</label>
     <input type="text" className="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor"/>
-  </div>
+  </div> */}
   <div className="form-row">
     <div className="form-group col-md-6">
       <label for="inputCity">City</label>
@@ -40,22 +52,28 @@ function ContactUs() {
         <option>Makueni</option>
       </select>
     </div>
-    <div className="form-group col-md-2">
+    {/* <div className="form-group col-md-2">
       <label for="inputZip">Zip</label>
       <input type="text" className="form-control" id="inputZip"/>
-    </div>
+    </div> */}
   </div>
-  <div className="form-group">
+  {/* <div className="form-group">
     <div className="form-check">
       <input className="form-check-input" type="checkbox" id="gridCheck"/>
       <label className="form-check-label" for="gridCheck">
         Check me out
       </label>
     </div>
-  </div>
+  </div> */}
+  
+
   <button type="submit" className="btn btn-primary">Send Message</button>
 </form>
+</div>
+  </div>
     </div>
+  
+    
   )
 }
 

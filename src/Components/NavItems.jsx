@@ -25,6 +25,12 @@ export const navItems = [
       path: "./contactus",
       cName: "nav-item",
     },
+    {
+      id: 4,
+      title: "Sign Up",
+      path: "./signup",
+      cName: "nav-item",
+    },
   ];
   
   export const serviceDropdown = [
