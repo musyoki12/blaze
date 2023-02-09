@@ -5,10 +5,11 @@ import Login from './Login.jsx'
 
 function Signup() {
   return (
-    <div>Signup
+    <div>
+   
+    
+    
     <Login/>
-    
-    
     </div>
   )
 }
